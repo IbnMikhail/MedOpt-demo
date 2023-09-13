@@ -15,8 +15,8 @@ const Features = () => {
             </div>
             {/* <!-- Feature 2 --> */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-2">Appointment Booking</h3>
-                <p>Effortlessly schedule appointments with healthcare providers.</p>
+                <h3 className="text-xl font-semibold mb-2">Favourites Rccommendations</h3>
+                <p>Effortlessly Find all your best recommendable here.</p>
             </div>
             {/* <!-- Feature 3 --> */}
             <div className="bg-white p-6 rounded-lg shadow-md">
