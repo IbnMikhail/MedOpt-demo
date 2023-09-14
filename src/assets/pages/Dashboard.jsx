@@ -1,4 +1,4 @@
-import React from 'react';
+
 import NavBar from '../components/Dashboard components/NavBar';
 import Welcome from '../components/Dashboard components/Welcome';
 import Features from '../components/Dashboard components/Features';
