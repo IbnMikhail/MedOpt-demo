@@ -13,29 +13,35 @@ const SignUp = () => {
                     <input type="text" id="fullName" name="fullName" required
                            className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-400"/>
                 </div>
+
                 <div className="mb-4">
                     <label for="email" className="block text-gray-700 font-medium">Email</label>
                     <input type="email" id="email" name="email" required
                            className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-400"/>
                 </div>
+
                 <div className="mb-4">
                     <label for="password" className="block text-gray-700 font-medium">Password</label>
                     <input type="password" id="password" name="password" required
                            className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-400"/>
                 </div>
+
                 <div className="mb-6">
                     <label for="confirmPassword" className="block text-gray-700 font-medium">Confirm Password</label>
                     <input type="password" id="confirmPassword" name="confirmPassword" required
                            className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-400"/>
                 </div>
+
                 <button type="submit"
                         className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                     Sign Up
                 </button>
             </form>
+
             <p className="mt-4 text-center">
-                Already have an account? <a href="#" className="text-blue-500 hover:underline">Log in here</a>
+                Already have an account? <link to ={`SignIn/2`} className="text-blue-500 hover:underline">Log in here</link>
             </p>
+
          </div>
     </div>
 </div>
